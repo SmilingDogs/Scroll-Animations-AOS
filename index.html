@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Animating content on Scroll</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <h1><span>Acrylic Painting</span> Gallery</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
+        quam!
+      </p>
+    </header>
+    <main class="container">
+      <section class="card" data-aos="flip-left">
+        <img src="https://i.ibb.co/VvC0vpN/paint-1.png" alt="painting" />
+        <div>
+          <h3>Acrylic Painting One</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
+            enim laudantium, animi veniam libero eveniet culpa unde perferendis
+            illo fugit corporis, voluptatibus totam dolorum, maiores magnam
+            officia. Ab, delectus.
+          </p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </section>
+
+      <section class="card" data-aos="custom-anim1" data-aos-duration="2000">
+        <img src="https://i.ibb.co/3NHjDcW/paint-2.png" alt="painting" />
+        <div>
+          <h3>Acrylic Painting Two</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
+            enim laudantium, animi veniam libero eveniet culpa unde perferendis
+            illo fugit corporis, voluptatibus totam dolorum, maiores magnam
+            officia. Ab, delectus.
+          </p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </section>
+
+      <section class="card" data-aos="custom-anim2">
+        <img src="https://i.ibb.co/0VywMkW/paint-3.png" alt="painting" />
+        <div>
+          <h3>Acrylic Painting Three</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
+            enim laudantium, animi veniam libero eveniet culpa unde perferendis
+            illo fugit corporis, voluptatibus totam dolorum, maiores magnam
+            officia. Ab, delectus.
+          </p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </section>
+
+      <section class="card" data-aos="fade-left">
+        <img src="https://i.ibb.co/5LkJFRP/paint-4.png" alt="painting" />
+        <div>
+          <h3>Acrylic Painting Four</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
+            enim laudantium, animi veniam libero eveniet culpa unde perferendis
+            illo fugit corporis, voluptatibus totam dolorum, maiores magnam
+            officia. Ab, delectus.
+          </p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </section>
+
+      <section class="card" data-aos="fade-down">
+        <img src="https://i.ibb.co/61R8Q2y/paint-5.png" alt="painting" />
+        <div>
+          <h3>Acrylic Painting Five</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod error
+            enim laudantium, animi veniam libero eveniet culpa unde perferendis
+            illo fugit corporis, voluptatibus totam dolorum, maiores magnam
+            officia. Ab, delectus.
+          </p>
+          <a href="#" class="btn">Buy Now</a>
+        </div>
+      </section>
+    </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 500,
+        offset: 400,
+      });
+    </script>
+  </body>
+</html>
